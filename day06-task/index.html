@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="mainTitle">Day06 Task</h1>
+
+    <form id="form">
+        <!-- name input -->
+        <label for="nameInput">Product name:</label>
+        <br>
+        <input id="nameInput" type="text" placeholder="name">
+        <br>
+        <br>
+        <!-- description input -->
+        <label for="descInput">Product description:</label>
+        <br>
+        <input id="descInput" type="text" placeholder="description">
+        <br>
+        <br>
+        <!-- categories input -->
+        <label for="categories">Choose a category:</label>
+        <select id="categories" name="categories">
+            <option id="category1" value="Category 1">Category 1</option>
+            <option id="category2" value="Category 2">Category 2</option>
+            <option id="category3" value="Category 3">Category 3</option>
+            <option id="category4" value="Category 4">Category 4</option>
+            
+        </select>
+        <br>
+        <br>
+        <!-- add button -->
+        <button id="addBtn" type="submit">Add</button>
+    </form>
+    <br>
+    <label for="searchInput">Search for products:</label>
+    <br>
+    <input id="searchInput" type="search" placeholder="Search by name or category.." 
+    >
+    
+    <table id="table" style="width: 50%;">
+    </table>
+
+    <script src="main.js">
+    </script>
+</body>
+</html>
