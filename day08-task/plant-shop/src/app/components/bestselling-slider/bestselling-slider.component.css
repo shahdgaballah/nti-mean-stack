@@ -1,0 +1,117 @@
+.plants-container{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+        height: 80vh;
+}
+
+.text{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 50px;
+}
+h3{
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 49px;
+    text-align: start;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-align: start;
+    font-size: 20px;
+    margin-right: 50px;
+}
+button{
+    color:black;
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 100px;
+    transition: color 0.3s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.plant-details{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.plants-img{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-right: 250px;
+
+
+}
+.plants-img img{
+    width: 100%;
+    width:250px;
+    border-radius: 10px;
+    border-radius: 20px;
+    
+}
+.plant{
+    height: 50vh;
+}
+.plant-names{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row;
+    gap: 130px;
+    margin-right: 87%;
+    
+}
+
+.plant-price{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 175px;
+    margin-right: 85%;
+
+    
+}
+
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 31px;
+    color: black;
+    
+}
+
+.price{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: grey;
+
+}

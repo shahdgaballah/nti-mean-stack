@@ -1,0 +1,148 @@
+.about-details{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:white;
+    height: 80vh;
+    gap: 20px;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.final-text{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.final-img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-us{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 49px;
+    color: black;
+    text-align: center;
+}
+
+.order-now{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    width: 100%;
+}
+
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.title-details{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.icon img{
+    width: 20%;
+    position: relative;
+}
+
+.vector1{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.vector1 img{
+    width: 2%;
+    margin-bottom: 110px;
+}
+
+.vector2{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.vector2 img{
+    width: 2%;
+    margin-bottom: 140px;
+}
+
+.vector3{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.vector3 img{
+    width: 2%;
+    margin-bottom: 140px;
+}
+
+.see-more-btn {
+    color: black;
+    width: 60%;
+    height: 8vh;
+    background-color: lightblue;
+    border: 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 110px;
+    margin-top: 50px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.see-more-btn:hover {
+    color: grey;
+}
+.circle-bg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: lightblue;
+}
+
+.circle-bg img {
+    width: 50%;               
+    height: 50%;
+}
