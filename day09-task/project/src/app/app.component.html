@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>{{'Hello, ' + name}}</h2>
+
+  <div class="form">
+    <input type="text" [(ngModel)]="newItem" placeholder="Enter new item">
+    <button class="btn" (click)="addItem(newItem)">Add</button>
+  </div>
+
+  <ul>
+    <li *ngFor="let item of items; let i = index">
+      <span>{{ item }}</span>
+
+      <input type="text" [(ngModel)]="editedItems[i]" placeholder="Edit item">
+      <button class="btn btn2" (click)="modifyItem(i, editedItems[i])">Update</button>
+
+      <button class="btn btn2" (click)="deleteItem(i, 1)">Delete</button>
+    </li>
+  </ul>
+</div>
