@@ -1,0 +1,50 @@
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 20px;
+
+}
+.btn1{
+    background-color: #1E1E1E;
+    color: white;
+}
+.btn2{
+    background-color: darkred;
+    color: white
+}
+.btn:hover{
+    background-color: grey;
+}
+
+.students-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.student-card {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 24px;
+    min-width: 250px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.student-card p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #333;
+}

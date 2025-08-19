@@ -1,0 +1,14 @@
+<div class="students-list-container">
+	<ng-container *ngFor="let student of students">
+		<app-studentscard class="student-card"
+				[name]="student.parentName"
+				[age]="student.parentAge"
+				[major]="student.parentMajor"
+		>
+				<div class="btns">
+						<button class="btn btn1" [routerLink]="'details/' + student.id">View Details</button>
+						<button class="btn btn2">Delete</button>
+				</div>
+		</app-studentscard>
+	</ng-container>
+</div>

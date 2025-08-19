@@ -1,0 +1,21 @@
+.btndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #1E1E1E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    background-color: grey;
+}
